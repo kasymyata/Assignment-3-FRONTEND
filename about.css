@@ -1,0 +1,53 @@
+.team-member-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+
+.avatar-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  flex-shrink: 0;
+}
+
+.team-member-name {
+  font-size: 18px;
+  margin: 0;
+}
+
+
+.team-member-role {
+  font-size: 12px;
+  color: goldenrod;
+}
+
+
+.team-member-desc {
+  font-size: 13px;
+  color: #A9ACBB;
+}
+
+
+.card-left {
+  text-align: left;
+}
+
+
+.table-history {
+  padding-bottom: 20px;
+}
+
+
+.bg-qassym { background-color: plum; }
+.bg-arsen  { background-color: green; }
+.bg-azamat { background-color: blue; }
+.bg-islam  { background-color: yellowgreen; }

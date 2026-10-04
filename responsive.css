@@ -1,0 +1,24 @@
+/* Медиа-запросы для мобильных устройств и планшетов (Step 10-11) */
+
+/* Планшеты (от 768px) */
+@media (min-width: 48rem) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Мониторы и ноутбуки (от 1024px) */
+@media (min-width: 64rem) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Адаптируемость таблиц на узких экранах */
+@media (max-width: 600px) {
+  .table-section {
+    overflow-x: auto;
+  }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPORTNEWS - Контакты</title>
+  <link rel="stylesheet" href="sport.css">
+  <link rel="icon" type="logo" href="logo.jpg">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+  <header>
+    <div class="container menu">
+      <div class="logo">SPORT<span>NEWS</span></div>
+      <nav class="links">
+        <a href="index.html">Главная</a>
+        <a href="sport.html">Все новости</a>
+        <a href="sport.html#football">Футбол</a>
+        <a href="sport.html#hockey">Хоккей</a>
+        <a href="sport.html#basket">Баскетбол</a>
+        <a href="contacts.html" style="color:#F2A900">Контакты</a>
+        <a href="about.html">О нас</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+     <div class="contact-info"><h3>Свяжитесь с нами</h3></div>
+    <section class="section contact-box">
+      <div class="contact-info">
+        <h2>Контакты</h2>
+        <p> г. Астана, пр. Мангилик Ел, 55</p>
+        <p> <a href="tel:+77172000000">+7 (7172) 00-00-00</a></p>
+        <p><a href="mailto:info@sportnews.kz">info@sportnews.kz</a></p>
+      </div>
+
+      <form class="contact-form" action="demo-result.html">
+        <h2>Обратная связь</h2>
+        
+        <label for="name">Ваше имя</label>
+        <input class="input" id="name" type="text" placeholder="Имя" required>
+
+        <label for="email">Email</label>
+        <input class="input" id="email" type="email" placeholder="email@example.com" required>
+
+        <label for="msg">Сообщение</label>
+        <textarea class="input" id="msg" rows="3" placeholder="четотам" required></textarea>
+
+        <button class="button active" type="submit">Отправить</button>
+      </form>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <div class="color" style="background:#F2A900"></div>
+        <h2>Частые вопросы</h2>
+      </div>
+
+<div class="faq-grid">
+  <details class="card faq-item">
+    <summary>Как предложить новость?</summary>
+    <p>Отправьте её через форму или на наш email.</p>
+  </details>
+  <details class="card faq-item">
+    <summary>Как стать автором?</summary>
+    <p>Пришлите резюме и примеры статей на почту.</p>
+  </details>
+  <details class="card faq-item">
+    <summary>Где таблицы?</summary>
+    <p>Турнирные таблицы доступны на главной странице.</p>
+  </details>
+  <details class="card faq-item">
+    <summary>Использование материалов</summary>
+    <p>Разрешено только со ссылкой на наш сайт.</p>
+  </details>
+</div>
+
+<form class="contact-form" action="demo-result.html" method="get" aria-describedby="demo-note">
+  <h2>Обратная связь</h2>
+  <p id="demo-note" style="color: #8B90A3; font-size: 12px; margin-bottom: 15px;">
+    Это демо форма. Никакая информация не будет отправлена или сохранена.
+  </p>
+  
+  <label for="topic">Тема обращения</label>
+  <select class="input" id="topic" required>
+    <option value="">Выберите тему</option>
+    <option value="news">Предложить новость</option>
+    <option value="ad">Реклама и сотрудничество</option>
+    <option value="bug">Техническая ошибка</option>
+  </select>
+
+  <label for="name">Ваше имя</label>
+  <input class="input" id="name" type="text" placeholder="Имя" autocomplete="name" required>
+
+  <label for="email">Email</label>
+  <input class="input" id="email" type="email" placeholder="email@example.com" autocomplete="email" required>
+
+  <label for="msg">Сообщение</label>
+  <textarea class="input" id="msg" rows="4" placeholder="Напишите ваше сообщение..." required></textarea>
+
+  <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
+    <input type="checkbox" id="privacy" required>
+    <label for="privacy" style="margin: 0;">Согласен на обработку данных</label>
+  </div>
+
+  <button class="button active" type="submit">Отправить</button>
+</form>
+
+    </section>
+
+   </main>
+   <footer>
+    <div class="container menu">
+      <div class="logo" style="font-size:14px; color:#777C8C">© 2026 SPORTNEWS Azamat Arsen Islam</div>
+    </div>
+  </footer>
+
+</body>
+</html>

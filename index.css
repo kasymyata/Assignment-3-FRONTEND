@@ -1,0 +1,187 @@
+.links {
+      display: flex;
+    }
+
+    .welcome-hero {
+      background: linear-gradient(180deg, #161E33 0%, #0D1321 100%);
+      padding: 70px 24px;
+      text-align: center;
+      border-bottom: 1px solid #33384A;
+    }
+
+    .welcome-hero h1 {
+      margin: 15px auto;
+      font-size: 38px;
+    }
+
+    .welcome-hero p {
+      color: #A9ACBB;
+      max-width: 600px;
+      margin: 0 auto 25px;
+      font-size: 16px;
+    }
+
+    .btn-main {
+      display: inline-block;
+      background: #1E7A46;
+      color: white;
+      padding: 12px 28px;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 15px;
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .btn-main:hover {
+      background: #2E9C5B;
+      transform: translateY(-2px);
+    }
+
+    .portal-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 25px;
+    }
+
+    .portal-card {
+      background: #161E33;
+      border: 1px solid #33384A;
+      border-radius: 8px;
+      padding: 24px;
+      text-align: center;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .portal-card:hover {
+      border-color: #F2A900;
+      transform: translateY(-3px);
+    }
+
+    .portal-card h3 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .portal-card p {
+      font-size: 13px;
+      color: #8B90A3;
+    }
+
+    .about-box {
+      background: #161E33;
+      border: 1px solid #33384A;
+      border-radius: 8px;
+      padding: 25px;
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    footer {
+      border-top: 1px solid #33384A;
+      padding: 25px 24px;
+      text-align: center;
+      color: #777C8C;
+      font-size: 13px;
+      margin-top: 50px;
+    }
+.live-scores {
+  background: #161E33;
+  border-bottom: 1px solid #33384A;
+  padding: 10px 0;
+}
+
+.scores-ticker {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto; 
+  padding-bottom: 4px;
+}
+
+.score-item {
+  background: #0D1321;
+  border: 1px solid #33384A;
+  border-radius: 6px;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.score-item .badge {
+  background: #E53E3E;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.score-item .league {
+  color: #F2A900;
+  font-weight: bold;
+}
+.top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #F2A900;
+  color: #000;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 13px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.top-btn:hover {
+  background: #ffd05b;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .welcome-hero h1 {
+    font-size: 24px;
+  }
+
+  .welcome-hero p {
+    font-size: 14px;
+  }
+
+  .about-box {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .portal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .btn-main {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
